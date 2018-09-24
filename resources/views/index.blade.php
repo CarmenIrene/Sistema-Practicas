@@ -2,92 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Index</title>
+	<link rel="stylesheet" href="css/estilos.css">
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
-   <script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+   	<script>
       $(document).ready(function()
       {
          $("#mostrarmodal").modal("show");
       });
     </script>
-    <style>
-		.container{
-			width: 50%;
-		}
-		.texto-modal{
-			color: red;
-			text-align: center;
-			font-size: 15px;
-		}
-		.encabezado{
-			text-align: center;
-		}
-		.menu{
-			width: 78%;
-			height: 39px;
-			background-image: url('/fondoMenu.png');
-			background-position: center;
-			position: relative;
-			left: 122px;
-		}
-		.menuitem{
-			list-style: none;
-			padding-top: 5px;
-		}
-		.menuitem a{
-			color: white;
-			font-size: 13px;
-		}
-		.menuitem a:hover{
-			color: white;
-			text-decoration: underline;
-		}
-		.submenu
-		{
-			overflow:hidden;
-			position:absolute;
-			top: 37px;
-			height: 210px;
-			width: 190px;
-			background-image: url('/fondoMenu.png');
-			visibility:visible;
-		}
-		.submenu li{
-			list-style: none;
-			padding-left:5px;
-			padding-right:5px;
-			padding-top:17px;
-			padding-bottom:5px;
-		}
-		.submenu li a{
-			display:block;
-			color:white;
-			font-family:Tahoma;
-			font-size:12px;
-			text-align:left;
-			text-decoration:none;
-		}
-		.menu .submenu:hover{
-			visibility: visible;
-		}
-
-		.secretaria{
-			background-color: rgb(0,0,102);
-			position: relative;
-			top: 276px;
-			width: 78%;
-			text-align: center;
-			color: white;
-			left: 122px;
-		}
-		.piePagina{
-			text-align: center;
-			font-size: 11px;
-			position: relative;
-			top: 280px;
-		}
-	</style>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
@@ -102,7 +26,7 @@
     		       <div class="modal-body">
 	        	      <p class="texto-modal">"Se te recuerda que debes consultar la vigencia de tu Seguro Facultativo. Esto se realiza en el Área de Afiliación de las oficinas del IMSS ubicadas en Carranza 1080, a un costado del Hospital de la Beneficencia Española o bien, directamente en la clínica que se te asignó al obtenerlo por primera vez, al inicio de tu carrera. En caso de que no tenga vigencia, debes llenar la Solicitud de Incorporación de Estudiantes al Seguro Facultativo, que se te proporciona en la Secretaría General de la Facultad de Ingeniería." <br><br>
 
-"Es indispensable que cuando subas tu reporte final de΅Prácticas Profesioneles subas una copia de tu recibo de pago del año escolar o tus Prácticas Profesionales no se acreditaran".</p>
+				"Es indispensable que cuando subas tu reporte final de΅Prácticas Profesioneles subas una copia de tu recibo de pago del año escolar o tus Prácticas Profesionales no se acreditaran".</p>
 		    	   </div>
         		   <div class="modal-footer">
 			          <a href="#" data-dismiss="modal" class="btn btn-danger">Cerrar</a>
@@ -130,13 +54,16 @@
 			</ul>
 		</div><!--DIV MENU-->
 
-	    <div id="mi_carousel" class="carousel slider" data-ride="carousel" data-interval="500" style="position: absolute; left: 400px; top: 200px;">
-	        <div class="carousel-inner">
-	            <div class="carousel-item active">
-	                <img class="w-100" src="/ingenieria.jpg" alt="">
-	            </div><!--div carousel-item-->
-	        </div><!--div carousel-inner-->
-	    </div><!--div carousel-->
+		<div id="carouselIngenieria" class="carousel slide" data-ride="carousel" data-interval="1000">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active" style="height: 250px">
+		      <img class="d-block w-50" src="/ingenieria.jpg" alt="slide">
+		    </div>
+		    <div class="carousel-item" style="height: 250px">
+		      <img class="d-block" src="..." alt="">
+		    </div>
+		  </div>
+		</div>
 
 		<div class="secretaria">
 			<p>SECRETARÍA ACADEMICA</p>

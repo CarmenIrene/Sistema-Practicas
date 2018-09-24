@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('/index');
 });
+Route::get('/inicioSesionSecretaria', function () {
+    return view('/inicioSesionSecretaria');
+});
+Route::get('/inicioSesionEncargado', function () {
+    return view('/inicioSesionEncargado');
+});
+Route::get('/inicioSesionAsesor', function () {
+    return view('/inicioSesionAsesor');
+});
+Route::get('/inicioSesionTutor', function () {
+    return view('/inicioSesionTutor');
+});
+Route::get('/inicioSesionAlumnos', function () {
+    return view('/inicioSesionAlumnos');
+});

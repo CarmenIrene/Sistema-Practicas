@@ -1,0 +1,82 @@
+.container{
+	width: 50%;
+}
+.texto-modal{
+	color: red;
+	text-align: center;
+	font-size: 15px;
+}
+.encabezado{
+	text-align: center;
+}
+.menu{
+	width: 78%;
+	height: 39px;
+	background-image: url('/fondoMenu.png');
+	background-position: center;
+	position: relative;
+	left: 122px;
+}
+.menuitem{
+	list-style: none;
+	padding-top: 5px;
+	width: 135px;
+}
+.menuitem a{
+	color: white;
+	font-size: 13px;
+}
+.menuitem a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.submenu
+{
+	overflow:hidden;
+	position:relative;
+	top: 9px;
+	height: 210px;
+	width: 190px;
+	background-image: url('/fondoMenu.png');
+	visibility:hidden;
+	z-index: 1;
+}
+.submenu li{
+	list-style: none;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:17px;
+	padding-bottom:5px;
+}
+.submenu li a{
+	display:block;
+	color:white;
+	font-family:Tahoma;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+}
+.menuitem:hover .submenu{
+	visibility: visible;
+}
+
+#carouselIngenieria{
+	padding-top: 20px;
+	width: 870px;
+	left: 121px;
+}
+.secretaria{
+	background-color: rgb(0,0,102);
+	position: relative;
+	bottom: 36px;
+	width: 78%;
+	text-align: center;
+	color: white;
+	left: 122px;
+}
+.piePagina{
+	text-align: center;
+	font-size: 11px;
+	position: relative;
+	bottom: 35px;
+}
