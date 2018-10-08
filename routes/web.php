@@ -29,3 +29,9 @@ Route::get('/inicioSesionTutor', function () {
 Route::get('/inicioSesionAlumnos', function () {
     return view('/inicioSesionAlumnos');
 });
+Route::get('/MenuAlumno', function () {
+    return view('/MenuAlumno');
+});
+Route::get('/llenarSolicitud', function () {
+    return view('/llenarSolicitud');
+});
